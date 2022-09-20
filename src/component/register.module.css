@@ -1,0 +1,86 @@
+.regBox {
+  background-color: rgb(1, 25, 49);
+  max-width: 32rem;
+  min-height: 2rem;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid rgb(78, 98, 124);
+  padding: 3rem 0 3rem 2rem;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #202123 inset;
+  -webkit-text-fill-color: #C9E5FF;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition-delay: 99999s;
+  -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+}
+
+.welcome {
+  font-size: 1.3rem;
+  letter-spacing: .1em;
+  line-height: 1.5;
+  color: rgb(80, 83, 85);
+}
+
+.inputEmail {
+  letter-spacing: .1em;
+  color: rgb(0, 252, 210);
+  padding-top: 3rem;
+  font-size: 1.3rem;
+}
+
+.enterbox input {
+  background-color: rgba(240, 255, 255, 0);
+  margin-top: 1rem;
+  width: 22rem;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.enterbox span {
+  color: pink;
+}
+
+.mybutton {
+  width: 6rem;
+  height: 3rem;
+  border-radius: .5rem;
+  border: 1px solid rgb(102, 147, 189);
+  color: white;
+  font-size: 1rem;
+  background-color: rgb(1, 25, 49);
+  cursor: pointer;
+}
+
+.hasEmail {
+  color: rgb(167, 71, 71);
+}
+
+.regInputBox {
+  color: rgb(87, 161, 137);
+}
+
+.regInputBox input {
+  background-color: rgba(240, 255, 255, 0);
+  width: 22rem;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.regInputBox button {
+  position: relative;
+  left: 50%;
+  transform: translateY(10%) translateX(-50%);
+}

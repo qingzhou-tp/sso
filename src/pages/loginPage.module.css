@@ -1,0 +1,12 @@
+.loginPage {
+  color: rgb(255, 255, 255);
+  padding-top: 3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.zuoLink {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}

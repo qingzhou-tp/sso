@@ -1,0 +1,97 @@
+.login {
+  color: white;
+}
+
+.loginForm {
+  height: 16rem;
+  width: 20rem;
+  background-color: rgb(55, 55, 55);
+  border-radius: 10px;
+  border-color: rgb(71, 71, 71);
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgb(119, 119, 119);
+}
+
+.loginForm .user {
+  position: relative;
+  left: -5rem;
+}
+
+.password {
+  position: relative;
+}
+
+.forgetPassword {
+  position: relative;
+  margin-left: 8rem;
+}
+
+.resetPassword {
+  color: rgb(0, 106, 255);
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #202123 inset;
+  -webkit-text-fill-color: #C9E5FF;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition-delay: 99999s;
+  -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+}
+
+.loginForm input {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid rgb(119, 119, 119);
+  position: relative;
+  background-color: #202123;
+  color: white;
+}
+
+.loginForm input:focus {
+  outline: 3px solid rgba(59, 138, 184, 0.678);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.loginForm button {
+  margin-top: 1rem;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 6px;
+  background-color: rgb(14, 162, 14);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toRegiste {
+  position: relative;
+  top: 2rem;
+  width: 20rem;
+  height: 4rem;
+  background-color: rgb(37, 37, 37);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 2rem;
+  border: 1px solid rgb(119, 119, 119);
+}
+
+.gotoRegiste {
+  color: rgb(0, 106, 255);
+}
+
+.gotoRegiste:hover {
+  cursor: pointer;
+}
